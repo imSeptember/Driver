@@ -1,0 +1,334 @@
+@media (min-width: 720px) and (max-width: 869px) {
+  body {
+    background: #cfd8dc;
+  }
+
+  .targeted {
+    scroll-margin-top: 190px;
+  }
+
+  .footer__wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .auto__photo__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .auto__photo {
+    width: 80%;
+    margin: 20px;
+  }
+
+  .main__header__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #644d54;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 10;
+  }
+
+  .main__header__phone__link,
+  .main__header__time__text {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+  }
+
+  .main__header__img {
+    width: 50px;
+    height: 50px;
+    filter: drop-shadow(6px 6px 6px white);
+  }
+
+  .navigation__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeeeee;
+    width: 100%;
+    height: 120px;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    color: #8b6d74;
+    border: solid #644d54 2px;
+    box-sizing: border-box;
+    position: fixed;
+    margin-top: 50px;
+    z-index: 10;
+  }
+
+  .nav__logo__container {
+    flex-grow: 1;
+    margin-left: 40px;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    color: #8b6d74;
+    display: none;
+  }
+
+  .nav__button {
+    text-decoration: none;
+    margin-right: 40px;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    color: #8b6d74;
+    width: 130px;
+    height: 50px;
+  }
+
+  .main__page__wrapper {
+    display: flex;
+  }
+
+  .main__page__photo {
+    display: none;
+  }
+
+  .main__page__photo__wrapper {
+    margin-left: 20px;
+  }
+
+  .main__page__article {
+    margin-left: 25px;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    margin-right: 40px;
+    padding: 10px 10px;
+    color: #644d54;
+  }
+
+  .before {
+    position: relative;
+    margin-right: 40px;
+    margin-left: 25px;
+    height: 680px;
+    margin-top: 210px;
+    padding: 10px 10px;
+  }
+
+  .before:before {
+    content: "";
+    background-image: url(/IMG/Kalenskiy_2.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.45;
+  }
+
+  .main__page__text {
+    color: #000;
+    text-align: justify;
+    font-family: Forum;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    /* margin-right: 40px;
+      margin-left: 25px; */
+    border: solid 3px #8b6d74;
+    /* padding: 10px 10px; */
+    height: 680px;
+    position: relative;
+  }
+
+  .line {
+    width: 50px;
+    height: 1px;
+    flex-shrink: 0;
+  }
+
+  .menu__text {
+    margin-left: 25px;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    margin-right: 40px;
+    margin-left: 25px;
+    padding: 10px 10px;
+    color: #644d54;
+    text-align: center;
+  }
+
+  /* 222222222222222222222222222222222222222222222222222 */
+
+  .menu__book {
+    list-style-type: none;
+    margin-left: 40px;
+  }
+
+  .menu__list {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin: 40px 0;
+    margin-right: 40px;
+  }
+
+  .menu__list__right {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin: 40px 0;
+    margin-right: 20px;
+  }
+
+  .divider {
+    width: 100px;
+    height: 1px;
+    background-color: #bb945f;
+    margin: 0px 60px;
+  }
+
+  .grow {
+    flex-grow: 1;
+    flex-shrink: 0;
+  }
+
+  .menu__price {
+    flex-shrink: 0;
+  }
+
+  .menu__article {
+    color: #bb945f;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 100% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    text-align: center;
+  }
+
+  /* ?????????????????????????????????????????????????????????? */
+  .social-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    box-shadow: 0px 0px 15px #00000027;
+    padding: 15px 10px;
+    border-radius: 5em;
+  }
+
+  .social-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 4px #00000027;
+    transition: 0.3s;
+  }
+
+  .social-button:hover {
+    background-color: #f2f2f2;
+    box-shadow: 0px 0px 6px 3px #00000027;
+  }
+
+  .social-buttons svg {
+    transition: 0.3s;
+    height: 20px;
+  }
+
+  .facebook {
+    background-color: #3b5998;
+  }
+
+  .facebook svg {
+    fill: #f2f2f2;
+  }
+
+  .facebook:hover svg {
+    fill: #3b5998;
+  }
+
+  .github {
+    background-color: #333;
+  }
+
+  .github svg {
+    width: 25px;
+    height: 25px;
+    fill: #f2f2f2;
+  }
+
+  .github:hover svg {
+    fill: #333;
+  }
+
+  .linkedin {
+    background-color: #0077b5;
+  }
+
+  .linkedin svg {
+    fill: #f2f2f2;
+  }
+
+  .linkedin:hover svg {
+    fill: #0077b5;
+  }
+
+  .instagram {
+    background-color: #c13584;
+  }
+
+  .instagram svg {
+    fill: #f2f2f2;
+  }
+
+  .instagram:hover svg {
+    fill: #c13584;
+  }
+
+  /* """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""" */
+}
