@@ -175,6 +175,7 @@
   }
   .menu__book {
     list-style-type: none;
+    margin-left: 40px;
   }
 
   .menu__list {
